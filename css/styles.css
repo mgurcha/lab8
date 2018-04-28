@@ -1,0 +1,52 @@
+#body {
+    background-color: purple;
+    text-align:center;
+    margin:0 auto;
+   
+}
+#line {
+    /*width: 95%;*/
+    /*border-color: black;*/
+    background-color: white;
+    height: 3px;
+}
+#title {
+    color: white;
+    font-style: oblique;
+}
+.error {
+    float:right;
+    font-weight: bold;
+}
+#inside {
+    text-align:left;
+}
+
+input {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+select {
+    margin:5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .1);
+}
+.form-control{
+    color: black;
+    background-color: rgba(0, 0, 0, .1);
+}
+#container {
+    display: inline-block;
+    font-size: 1.2em;
+    border-color: black;
+    border-style: dashed;
+    width: 40%;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .9);
+}
+
