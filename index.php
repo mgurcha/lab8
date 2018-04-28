@@ -12,14 +12,15 @@
         
             function validateForm() {
                 if($("#pwd").val() == $("#pwd2").val()){
-                    $("#pwdMSG").html("");
+                    $("#pwdMSG").html("Passwords match! <br> You've been signed up!");
+                    $("#pwdMSG").css("color", "green");
                 } else {
-                    $("#pwdMSG").html("Passwords do not match!");
+                    $("#pwdMSG").html("Passwords do not match!<br> Retype Password.");
+                    $("#pwdMSG").css("color", "red");
                 }
                 return false;
            
             }
-            
         </script>
         
         <script>
@@ -133,7 +134,7 @@
     
        <h1 id="title"> Sign Up Form </h1>
         <div id="container">
-        <form onsubmit="return validateForm()">
+        <form onsubmit="return validateForm()" id="SignUp">
             <fieldset>
                <!--<legend>Sign Up</legend>-->
                <h3> Sign Up </h3>
@@ -169,12 +170,9 @@
                 Password: <input type="password" id="pwd"><br><br>
                 
                 Type Password Again: <input type="password" id="pwd2"><br>
-                    <span class="error" id="pwdMSG" style="color:red"></span><br>
-                    <!--<span id="pwdMSG"></span><br>-->
-                    
-                
+                    <span class="error" id="pwdMSG"></span><br>
                 </div>
-                <input type="submit" value="Sign up!">
+                <br><input type="submit" value="Sign up!">
             </fieldset>
         </form>
     </div>
