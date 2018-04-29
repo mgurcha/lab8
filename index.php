@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>AJAX: Sign Up Page</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -136,7 +137,6 @@
         <div id="container">
         <form onsubmit="return validateForm()" id="SignUp">
             <fieldset>
-               <!--<legend>Sign Up</legend>-->
                <h3> Sign Up </h3>
                <hr id="line">
                <div id="inside">
